@@ -1,232 +1,214 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" type="text/css" href="dep/normalize.css/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="dep/Font-Awesome/css/font-awesome.css" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
-  </head>
-  <body lang="en">
-    <section id="main">
-      <header id="title">
-        <h1>John Shiver</h1>
-        <span class="subtitle">Software Engineer: Backend + Devops</span>
-      </header>
-      <section class="main-block">
-        <h2>
-          <i class="fa fa-suitcase"></i> Work Experience
-        </h2>
-        <section class="blocks">
-          <div class="date">
-            <span>present</span><span>2018-03</span>
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" type="text/css" href="dep/normalize.css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="dep/Font-Awesome/css/font-awesome.css" /> <link rel="stylesheet" type="text/css" href="style.css" /> </head>
+<body lang="en">
+  <section id="main">
+    <header id="title">
+      <h1>John Shiver</h1>
+      <span class="subtitle">Software Engineer: Backend | Devops | Data</span>
+    </header>
+    <section class="main-block">
+      <h2>
+        <i class="fa fa-suitcase"></i> Work Experience
+      </h2>
+      <section class="blocks">
+        <div class="date">
+          <span>2020-03</span><span>2019-07</span>
+        </div>
+        <div class="decorator">
+        </div>
+        <div class="details">
+          <header>
+            <h3>Backend Engineer: Go / Serverless</h3>
+            <span class="place">Stocktwits</span>
+            <span class="location">New York, NY</span>
+          </header>
+          <div>
+            <ul>
+              <li>Feature team: Brokerage trading application (similar to Robinhood)</li>
+              <li>Wrote and maintained services to calculate and deliver user stock portfolio performance for various
+                ranges</li>
+              <li>Wrote and maintained social services: user contacts / followers / interal integrations </li>
+              <li>Moved waitlist service business logic to SQL, reducing module size from ~3000 LOC to ~300 LOC</li>
+            </ul>
           </div>
-          <div class="decorator">
-          </div>
-          <div class="details">
-            <header>
-              <h3>Software Engineer</h3>
-              <span class="place">Squarespace</span>
-              <span class="location">New York, NY</span>
-            </header>
-            <div>
-              <ul>
-                <li>Wrote new ETL to integrate internal product with new production system: HDFS -> Postgres -> ElasticSearch</li>
-                <li>For all existing Luigi ETL's, wrote automated Data Quality Indicators to identify missing data and self healing commands to locate and re-run failed ETLs. Reduced missing data tickets by >90%</li>
-                <li>General code quality improvement of existing projects: tests, standard code formatting, performance analysis and fixes for existing API endpoints,  etc.</li>
-                <li>Mentor junior backend engineers, conduct onsite algorithms interviews</li>
-              </ul>
-              </div>
-          </div>
-        </section>
-        <section class="blocks">
-          <div class="date">
-            <span>2018-03</span><span>2016-09</span>
-          </div>
-          <div class="decorator">
-          </div>
-          <div class="details">
-            <header>
-              <h3>Systems Engineer</h3>
-              <span class="place">Yext</span>
-              <span class="location">New York, NY</span>
-            </header>
-            <div>
-              <ul>
-                <li>Wrote MySQL tools to failover all company databases between data centers, ~50 db / data center</li>
-                <li>Wrote Python CLI tool to sync DNS records between multiple providers</li>
-                <li>General linux administration of cloud and bare metal systems.</li>
-                <li>Wrote ETL in Golang to calculate downtime of all public facing services</li>
-              </ul>
-              </div>
-          </div>
-        </section>
-        <section class="blocks">
-          <div class="date">
-            <span>2016-09</span><span>2016-03</span>
-          </div>
-          <div class="decorator">
-          </div>
-          <div class="details">
-            <header>
-              <h3>Software Engineer</h3>
-              <span class="place">WayUp</span>
-              <span class="location">New York, NY</span>
-            </header>
-            <div>
-              <ul>
-                <li>Wrote Django backend service for in-app user chat, similar to LinkedIn chat.</li>
-                <li>Dockerized local development environment, reducing set up time from 1 day to ~30 minutes</li>
-                <li>Moved static pages behdind an NGINX load balancer and added Varnish, reduced page load from ~1s to ~150ms</li>
-              </ul>
-            </div>
-          </div>
-        </section>
-        <section class="blocks">
-          <div class="date">
-            <span>2016-03</span><span>2014-10</span>
-          </div>
-          <div class="decorator">
-          </div>
-          <div class="details">
-            <header>
-              <h3>Software Engineer</h3>
-              <span class="place">Offerup</span>
-              <span class="location">Seattle, WA</span>
-            </header>
-            <div>
-              <ul>
-                <li>Built user chat saftey tips, a system to flag potentially harmful user messages before they are sent, alerting recipients with conextually useful information. This system was built for scale, processing over 5 million messages per day.</li>
-                <li>Worked on in-house thumbnailing service to serve on-demand custom sized photos to mobile apps. Served and resized millions of photos per day.</li>
-                <li>Automated rolling deployment of new app servers on AWS.  Reduced deployment time from 3 hours to 20 minutes.</li>
-              </ul>
-              </div>
-          </div>
-        </section>
+        </div>
       </section>
-      <section class="main-block">
-        <h2>
-          <i class="fa fa-folder-open"></i> Open Source Projects
-        </h2>
-        <section class="blocks">
-          <div class="date">
+      <section class="blocks">
+        <div class="date">
+          <span>2019-07</span><span>2018-03</span>
+        </div>
+        <div class="decorator">
+        </div>
+        <div class="details">
+          <header>
+            <h3>Data Engineer</h3>
+            <span class="place">Squarespace</span>
+            <span class="location">New York, NY</span>
+          </header>
+          <div>
+            <ul>
+              <li>Develop and maintain ETL's to provide accurate, reliable new data sources to internal stake holders
+              </li>
+              <li>Founded new data engineering team: built k8 infrastructure + all shared Airflow code for the team</li>
+              <li>Developed automated Data Quality Indicators for legacy ETL's; reduced missing data tickets by >95%
+              </li>
+              <li>Summer intern manager for my data team</li>
+            </ul>
           </div>
-          <div class="decorator">
-          </div>
-          <div class="details">
-            <header>
-              <h3>Plankton</h3>
-              <span class="place">A simple ETL Framework in Golang</span>
-            </header>
-            <div>
-              <ul>
-                <li>Plankton is a set of tools to create ETL dags, that is, a graph of tasks that need to be completed, each having dependencies such that it creates a Directed, Acyclic Graph. Plankton was inspired by Luigi, which Ive used extensively at wto write ETLs at work.</li>
-                <li> <a href="https://www.github.com/johnshiver/plankton"> github.com/johnshiver/plankton </a></li>
-              </ul>
-            </div>
-          </div>
-        </section>
-        <section class="blocks">
-          <div class="date">
-          </div>
-          <div class="decorator">
-          </div>
-          <div class="details">
-            <header>
-              <h3>Alogrithm Study Helper</h3>
-              <span class="place">A command line algorithms judge in Python</span>
-            </header>
-            <div>
-              <ul>
-                <li>A project to efficiently and productively study algorithms from your command line.  Includes about 10 algorithms problems, automatically tests reqponses against optimal answer, including performance and memory analysis. </li>
-                <li> <a href="https://www.github.com/johnshiver/algo_study_helper"> github.com/johnshiver/algo_study_helper </a></li>
-              </ul>
-            </div>
-          </div>
-        </section>
+        </div>
       </section>
-      <section class="main-block concise">
-        <h2>
-          <i class="fa fa-graduation-cap"></i> Education
-        </h2>
-        <section class="blocks">
-          <div class="date">
-            <span>2011</span><span>2008</span>
+      <section class="blocks">
+        <div class="date">
+          <span>2018-03</span><span>2016-09</span>
+        </div>
+        <div class="decorator">
+        </div>
+        <div class="details">
+          <header>
+            <h3>Systems Engineer</h3>
+            <span class="place">Yext</span>
+            <span class="location">New York, NY</span>
+          </header>
+          <div>
+            <ul>
+              <li>Develop and maintain MYSQL replcation management program in Python; used to failover all company
+                databases between data centers</li>
+              <li>Develop and maintain Python CLI tool to sync DNS records between multiple providers</li>
+              <li>Develop and maintain ETL Go tasks responsible for calculating and producing SLA reports for all public
+                facing services</li>
+              <li>General linux administration of cloud and bare metal systems.</li>
+            </ul>
           </div>
-          <div class="decorator">
+        </div>
+      </section>
+      <section class="blocks">
+        <div class="date">
+          <span>2016-09</span><span>2016-03</span>
+        </div>
+        <div class="decorator">
+        </div>
+        <div class="details">
+          <header>
+            <h3>Software Engineer</h3>
+            <span class="place">WayUp</span>
+            <span class="location">New York, NY</span>
+          </header>
+          <div>
+            <ul>
+              <li>Wrote Django backend service for in-app user chat, similar to LinkedIn chat.</li>
+              <li>Moved static pages behdind an NGINX load balancer and added Varnish, reduced page load from ~1s to
+                ~150ms</li>
+            </ul>
           </div>
-          <div class="details">
-            <header>
-              <h3>J.D. </h3>
-              <span class="place">University of San Francisco School of Law</span>
-              <span class="location">San Francisco, CA</span>
-            </header>
-            <div>CALI Award: Highest Grade in Economic Regulatory Systems</div>
+        </div>
+      </section>
+      <section class="blocks">
+        <div class="date">
+          <span>2016-03</span><span>2014-10</span>
+        </div>
+        <div class="decorator">
+        </div>
+        <div class="details">
+          <header>
+            <h3>Software Engineer</h3>
+            <span class="place">Offerup</span>
+            <span class="location">Seattle, WA</span>
+          </header>
+          <div>
+            <ul>
+              <li>Built user chat saftey tips, a system to flag potentially harmful user messages before they are sent,
+                alerting recipients with conextually useful information. This system was built for scale, processing
+                over 5 million messages per day.</li>
+              <li>Worked on in-house thumbnailing service to serve on-demand custom sized photos to mobile apps. Served
+                and resized millions of photos per day.</li>
+            </ul>
           </div>
-        </section>
-        <section class="blocks">
-          <div class="date">
-            <span>2008</span><span>2004</span>
-          </div>
-          <div class="decorator">
-          </div>
-          <div class="details">
-            <header>
-              <h3>B.S. Biology and Environmental Science (Double Major)</h3>
-              <span class="place">Muhlenberg College</span>
-              <span class="location">Allentown, PA</span>
-            </header>
-          </div>
-        </section>
-        <section class="blocks">
-          <div class="date">
-          </div>
-          <div class="decorator">
-          </div>
-          <div class="details">
-            <header>
-              <h3>MOOCs</h3>
-            </header>
-            <div class="concise">
-              <ul>
-                <li>Intro: Comp Sci and Programming</li>
-                <li>Computational Thinking and Data Science</li>
-                <li>Object Oriented Programming; Java</li>
-                <li>Data Structures: Java</li>
-                <li>Advanced Data Structures: Java</li>
-                <li>Algorithms: Design and Analysis</li>
-              </ul>
-            </div>
-          </div>
-        </section>
+        </div>
       </section>
     </section>
-    <aside id="sidebar">
-      <div class="side-block" id="contact">
-        <h1>
-         Information
-        </h1>
-        <ul>
-          <li><i class="fa fa-envelope"></i> johneshiver@gmail.com</li>
-          <li><i class="fa fa-phone"></i> 267.614.4319</li>
-          <li><i class="fa fa-linkedin"></i> linkedin.com/in/johnshiver</li>
-          <li><i class="fa fa-linkedin"></i> github.com/johnshiver</li>
-        </ul>
-      </div>
-      <div class="side-block" id="skills">
-        <h1>
-         Skills
-        </h1>
-        <ul>
-          <li>Python</li>
-          <li>Golang</li>
-          <li>Java</li>
-        </ul>
-        <ul>
-          <li>Systems Architecture</li>
-          <li>Software Design</li>
-          <li>Data Engineering</li>
-        </ul>
-      </div>
-    </aside>
-  </body>
+    <section class="main-block concise">
+      <h2>
+        <i class="fa fa-graduation-cap"></i> Education
+      </h2>
+      <section class="blocks">
+        <div class="date">
+          <span>2019</span>
+        </div>
+        <div class="decorator">
+        </div>
+        <div class="details">
+          <header>
+            <h3>Bridge Program: Computer Science</h3>
+            <span class="place">NYU Tandon Engineering</span>
+            <span class="location">New York, NY</span>
+          </header>
+          <div>Graduated with Distinction: 4.0</div>
+        </div>
+      </section>
+      <section class="blocks">
+        <div class="date">
+          <span>2011</span><span>2008</span>
+        </div>
+        <div class="decorator">
+        </div>
+        <div class="details">
+          <header>
+            <h3>J.D. </h3>
+            <span class="place">University of San Francisco School of Law</span>
+            <span class="location">San Francisco, CA</span>
+          </header>
+          <div>CALI Award: Highest Grade in Economic Regulatory Systems</div>
+        </div>
+      </section>
+      <section class="blocks">
+        <div class="date">
+          <span>2008</span><span>2004</span>
+        </div>
+        <div class="decorator">
+        </div>
+        <div class="details">
+          <header>
+            <h3>B.S. Biology and Environmental Science (Double Major)</h3>
+            <span class="place">Muhlenberg College</span>
+            <span class="location">Allentown, PA</span>
+          </header>
+        </div>
+      </section>
+    </section>
+  </section>
+  <aside id="sidebar">
+    <div class="side-block" id="contact">
+      <h1>
+        Information
+      </h1>
+      <ul>
+        <li><i class="fa fa-envelope"></i>john@johnshiver.org</li>
+        <li><i class="fa fa-phone"></i>267.614.4319</li>
+        <li><i class="fa fa-linkedin"></i>linkedin.com/in/johnshiver</li>
+        <li><i class="fa fa-linkedin"></i>github.com/johnshiver</li>
+      </ul>
+    </div>
+    <div class="side-block" id="skills">
+      <h1>
+        Skills
+      </h1>
+      <ul>
+        <li>Go</li>
+        <li>SQL</li>
+        <li>Python</li>
+      </ul>
+      <ul>
+        <li>Systems Architecture</li>
+        <li>Software Design</li>
+        <li>Data Engineering</li>
+      </ul>
+    </div>
+  </aside>
+</body>
+
 </html>
