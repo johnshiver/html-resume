@@ -29,11 +29,11 @@
           </header>
           <div>
             <ul>
-              <li>Feature team: Brokerage trading application (similar to Robinhood)</li>
+              <li>Feature team: Brokerage trading application (similar to Robinhood) Deployed to AWS Lambda using Postgres as the main data store</li>
               <li>Wrote and maintained services to calculate and deliver user stock portfolio performance for various
                 ranges</li>
-              <li>Wrote and maintained social services: user contacts / followers / interal integrations </li>
-              <li>Moved waitlist service business logic to SQL, reducing module size from ~3000 LOC to ~300 LOC</li>
+              <li>Wrote and maintained social services: user contacts / followers / interal integrations</li>
+              <li>Moved waitlist service business logic from Go to Postgres, reducing module size from ~3000 LOC to ~300 LOC and decreasing latency from ~1s to ~100ms</li>
             </ul>
           </div>
         </div>
@@ -52,10 +52,12 @@
           </header>
           <div>
             <ul>
-              <li>Develop and maintain ETL's to provide accurate, reliable new data sources to internal stake holders
+              <li>Develop and maintain ETL's using Kafka + HDFS + Postgres + ElasticSearch to provide accurate,
+                  reliable new data sources to internal stake holders
               </li>
               <li>Founded new data engineering team: built k8 infrastructure + all shared Airflow code for the team</li>
-              <li>Developed automated Data Quality Indicators for legacy ETL's; reduced missing data tickets by >95%
+              <li>Identified numerous data model issues in billing service Postgres tables, increased data accuracy by ~10%</li>
+              <li>Automated Data Quality Indicators and re-runs for legacy ETL's, reduced missing data tickets by >95%
               </li>
               <li>Summer intern manager for my data team</li>
             </ul>
@@ -81,7 +83,7 @@
               <li>Develop and maintain Python CLI tool to sync DNS records between multiple providers</li>
               <li>Develop and maintain ETL Go tasks responsible for calculating and producing SLA reports for all public
                 facing services</li>
-              <li>General linux administration of cloud and bare metal systems.</li>
+              <li>General linux administration of cloud and bare metal systems</li>
             </ul>
           </div>
         </div>
@@ -123,9 +125,9 @@
             <ul>
               <li>Built user chat saftey tips, a system to flag potentially harmful user messages before they are sent,
                 alerting recipients with conextually useful information. This system was built for scale, processing
-                over 5 million messages per day.</li>
+                over 5 million messages per day</li>
               <li>Worked on in-house thumbnailing service to serve on-demand custom sized photos to mobile apps. Served
-                and resized millions of photos per day.</li>
+                and resized millions of photos per day</li>
             </ul>
           </div>
         </div>
@@ -198,9 +200,12 @@
         Skills
       </h1>
       <ul>
-        <li>Go</li>
-        <li>SQL</li>
-        <li>Python</li>
+        <li>Go | Python | SQL </li>
+      </ul>
+      <ul>
+        <li>AWS | Kubernetes </li>
+        <li>Postgres | ElasticSearch | Redis </li>
+        <li>Kafka | Hadoop | Hive </li>
       </ul>
       <ul>
         <li>Systems Architecture</li>
